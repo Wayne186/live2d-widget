@@ -45,7 +45,6 @@ class Model {
             const target = randomSelection(this.modelList.models[modelId]);
             loadlive2d("live2d", `${this.cdnPath}model/${target}/index.json`);
             showMessage("我的新衣服好看嘛？", 4000, 10);
-            console.log(`Live2D 模型 ${modelId}-${modelTexturesId} 加载完成`);
         } else {
             // 可选 "rand"(随机), "switch"(顺序)
             fetch(`${this.apiPath}rand_textures/?id=${modelId}-${modelTexturesId}`)
