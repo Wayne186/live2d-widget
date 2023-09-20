@@ -1,5 +1,5 @@
 // live2d_path 参数建议使用绝对路径
-const live2d_path = "https://fastly.jsdelivr.net/gh/Wayne186/live2d-widget@c3b5453/";
+const live2d_path = "https://fastly.jsdelivr.net/gh/Wayne186/live2d-widget/";
 
 // 封装异步加载资源的方法
 function loadExternalResource(url, type) {
@@ -37,8 +37,8 @@ if (screen.width >= 768) {
 			//apiPath: "https://live2d.fghrsh.net/api/",
 			// cdnPath: "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/",
 			// cdnPath: "https://npm.elemecdn.com/akilar-live2dapi@latest/",
-			cdnPath: "https://gcore.jsdelivr.net/npm/yzs-live2d_src@1.1.0/",
-			tools: ["hitokoto", "asteroids", "switch-model", "switch-texture", "photo", "info", "quit"]
+			cdnPath: "https://fastly.jsdelivr.net/gh/Wayne186/live2d-widget@latest/",
+			tools: ["hitokoto", "switch-texture", "photo", "info"]
 		});
 		console.log("init completed");
 	});
